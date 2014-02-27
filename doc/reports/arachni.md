@@ -2,7 +2,7 @@
 
 URL: http://www.arachni-scanner.com/  
 License: Apache License 2.0  
-Tested version:   
+Tested version: 0.4.6-0.4.3 from Jan 2014  
 Language: Ruby  
 Command line tool / Web user interface
 
