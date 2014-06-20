@@ -2,7 +2,7 @@
 
 URL: http://w3af.org/  
 License: GPL v2  
-Tested version: git checkout from 01.04.2014  
+Tested version: 1.6.0.2  
 Language: Python  
 Command line tool / Graphic user interface
 
@@ -12,14 +12,24 @@ git clone
 
 ## Test:  
 started in gui
+preconfigured profile 'full_audit'
 
 
-### Found issues (selection):
+### Found issues on vulnsrv (selection):
 * Cross Site Request Forgery
 * Cross Site Scripting vulnerability
 * SQL injection
 * Local File Inclusion
 * path disclosure vulnerability
+
+
+### Found issues on webvulnscan tests (selection):
+* None (X-Frame-Options header Click-Jacking)  
+
+(debug) information about:
+
+  * uncommon use of HTTP header
+  * still missing some 'Content-Type' headers
 
 
 ## Features
